@@ -1,0 +1,27 @@
+{
+  "name": "rest-api-imdb-clone-nodejs",
+  "version": "1.0.0",
+  "description": "Search, Filter, and Pagination RestAPI for IMDb Clone with Node JS",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yulioaldiw/rest-api-imdb-clone-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yulioaldiw/rest-api-imdb-clone-nodejs/issues"
+  },
+  "homepage": "https://github.com/yulioaldiw/rest-api-imdb-clone-nodejs#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "sequelize": "^6.28.0"
+  }
+}
