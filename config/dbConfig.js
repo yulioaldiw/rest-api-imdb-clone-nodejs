@@ -3,7 +3,7 @@ module.exports = {
     USER: 'root',
     PASSWORD: '',
     DB: 'db_imdb_clone',
-    dialect: 'mysql',
+    dialect: 'mariadb',
     pool: {
         max: 5,
         min: 0,
